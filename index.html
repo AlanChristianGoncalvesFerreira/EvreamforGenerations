@@ -1,0 +1,73 @@
+<html lang="pt-br">
+<head>
+<title> Agência Evream  for generations </title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"  href="style.css" />
+<script type="text/javascript" src="script.js"></script>
+<meta name="facebook-domain-verification" content="tv6ulxgdavvd89svcfilj3xh2c6z64" />
+</head>
+
+
+
+<body > 
+
+<div id="wrap">
+<header id="header">
+<ul>
+<li><a href="https://www.facebook.com/evreamforgenerations" alt="Facebook" target="_blank"><img src="image/facebook.png" alt="Facebook"> </a></li>
+<li><a href="https://www.instagram.com/evreamforgenerations/" alt="Instagram" target="_blank"><img src="image/instagram.png" alt="Instagram"> </a></li>
+<li><a href="https://www.behance.net/evreamforgenerations" alt="Behance" target="_blank"><img src="image/behance.png" alt="Behance" style="width: 246%;"> </a></li>
+</ul>
+<a onclick="backEvream()" href="javascript:caller(3)" alt="Evream"> <img src="image\logo Evream.png" alt="Logo Evream for generations" /> </a>
+
+</header>
+<div id="intro">
+
+
+
+</div>
+<nav id="navegacao" class="nav_one">
+ <ul>
+   <li><a href="javascript:caller(0)" alt="Home"><img src="image\menu-home.png" alt="Home" > </a></li>
+   <li><a href="javascript:caller(1)" alt="Serviços"><img src="image\menu-servicos.png" alt="Servicos" ></a></li>
+   <li><a href="javascript:caller(2)" alt="Contato"><img src="image\menu-contato.png" alt="Contato" style="margin-top: 4px;"></a></li>
+   <li><a href="https://evreamforgenerations.blogspot.com/" alt="Blog" target="_blank "><img src="image\menu-sobremim.png" alt="Sobre mim" style="margin-top:3px;"></a></li>  
+</ul>    
+
+</nav>
+
+</div>
+<!-- Messenger Plugin de bate-papo Code -->
+<div id="fb-root"></div>
+
+<!-- Your Plugin de bate-papo code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "100846315862992");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v13.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+</body>
+</html>    
