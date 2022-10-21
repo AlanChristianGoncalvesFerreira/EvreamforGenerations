@@ -98,7 +98,7 @@
 #slide{
  width:100%;
  height:880px;
- background-image:url("image/slide-one.png") no-repeat;
+ background-image:url("image/slide-EU NUNCA DEIXEI VOCE PRA TRAS.PNG") no-repeat;
 
  animation-name: slide;
   animation-duration: 20s;
@@ -107,7 +107,7 @@
   background-position: center;
 
 }@keyframes slide {
-    0%   { background-image: url("image/slide-one.png");
+    0%   { background-image:url("image/slide-EU NUNCA DEIXEI VOCE PRA TRAS.PNG");
    background-size:100%;
    background-repeat:no-repeat;
    background-size: 73%;

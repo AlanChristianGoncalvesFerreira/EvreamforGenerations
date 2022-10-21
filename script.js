@@ -19,7 +19,7 @@ window.onload=function(){
 function caller(n){
 	
 	switch(n){
-	case 0: t="Home.html " ;break;
+	case 0: t="Home.php " ;break;
 	case 1: t=" Servicos.html" ;break;
 	case 2: t="Contato.html" ;break;
 	case 3: t="Evream.html" ;break;
